@@ -4,8 +4,10 @@ Processes an predifined image with the text on the slash command.
 Saves it to AWS S3 and returns to Slack the URL of the new image
 # AWS Configuration
 TODO
+
 Proxy Lambda needed, maybe it should be in the repo. This should be available through AWS Api Gateway (For Slack)
-SNS Topic. And the lambda containing this code should be subscribed to it.
+
+SNS Topic to which this repo's lambda should be subscribed to it.
 # Deploy
 TODO
 ```
